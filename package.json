@@ -1,0 +1,18 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "forever app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "1.4.5",
+    "cors": "^2.8.5",
+    "debug": "4.3.1",
+    "express": "4.17.1",
+    "forever": "^3.0.4",
+    "moment": "^2.29.1",
+    "nosql": "^6.1.0",
+    "morgan": "1.10.0"
+  }
+}
